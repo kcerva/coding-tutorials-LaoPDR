@@ -20,3 +20,5 @@ For more details see:
   - [Getting Started With Jupyter Notebook for Python](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
 
 
+## Additional material online with useful information and excercises on python basics
+- [Python for data analysis course material] (https://github.com/cuttlefishh/python-for-data-analysis)
