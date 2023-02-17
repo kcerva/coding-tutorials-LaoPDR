@@ -21,4 +21,4 @@ For more details see:
 
 
 ## Additional material online with useful information and excercises on python basics
-- [Python for data analysis course material] (https://github.com/cuttlefishh/python-for-data-analysis)
+- [Python for data analysis course material](https://github.com/cuttlefishh/python-for-data-analysis)
