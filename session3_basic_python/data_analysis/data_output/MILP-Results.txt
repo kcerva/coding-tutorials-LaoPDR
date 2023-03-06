@@ -1,0 +1,23 @@
+1 Set Declarations
+    x_index : Dim=0, Dimen=1, Size=4, Domain=None, Ordered=False, Bounds=None
+        ['hammer', 'screwdriver', 'towel', 'wrench']
+
+1 Var Declarations
+    x : Size=4, Index=x_index
+        Key         : Lower : Value : Upper : Fixed : Stale : Domain
+             hammer :     0 :   1.0 :     1 : False : False : Binary
+        screwdriver :     0 :   1.0 :     1 : False : False : Binary
+              towel :     0 :   1.0 :     1 : False : False : Binary
+             wrench :     0 :   0.0 :     1 : False : False : Binary
+
+1 Objective Declarations
+    value : Size=1, Index=None, Active=True
+        Key  : Active : Sense    : Expression
+        None :   True : maximize : 8*x[hammer] + 3*x[wrench] + 6*x[screwdriver] + 11*x[towel]
+
+1 Constraint Declarations
+    weight : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                      : Upper : Active
+        None :  -Inf : 5*x[hammer] + 7*x[wrench] + 4*x[screwdriver] + 3*x[towel] :  14.0 :   True
+
+4 Declarations: x_index x value weight
